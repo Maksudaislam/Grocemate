@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GroceMate2</string>
+    <string name="grocemate">  GroceMate</string>
+    <string name="welcome_to_grocemate">  Welcome To GroceMate App</string>
+    <string name="customer">Customer</string>
+    <string name="employee">Employee</string>
+    <string name="admin">Admin</string>
+    <string name="customer_details">Customer details</string>
+    <string name="employee_details">Employee Details</string>
+    <string name="welcome_message_for_grocemate">Welcome message for GroceMate</string>
+    <string name="admin_login_button">Admin login button</string>
+    <string name="employee_login_button">Employee login button</string>
+    <string name="app_name_grocemate">App name: GroceMate</string>
+    <string name="app_name_grocemate1">App name: GroceMate1</string>
+    <string name="login">LOGIN</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="details">Details</string>
+    <string name="welcome">Welcome!</string>
+    <string name="show_products">Show Products</string>
+    <string name="products">Products</string>
+
+
+    <string-array name="Student">
+        <item>Maksuda</item>
+        <item>Tasnoba</item>
+        <item>Moumita</item>
+        <item>Tanvin</item>
+        <item>Irin</item>
+
+        <item>Azrin</item>
+        <item>Faiza</item>
+        <item>Nowrin</item>
+        <item>JK</item>
+        <item>Samia</item>
+        <item>Rahi</item>
+        <item>Bakar</item>
+    </string-array>
+</resources>

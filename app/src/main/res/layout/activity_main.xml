@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:id="@+id/main"
+    android:background="@drawable/g2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="@string/grocemate"
+        android:textColor="#BA323A"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:contentDescription="App name: GroceMate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome_to_grocemate"
+        android:textColor="#191A19"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:contentDescription="@string/welcome_message_for_grocemate" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/admin_login_button"
+        android:padding="10dp"
+        android:text="@string/admin"
+        android:textColor="#EDE6E6"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/employee_login_button"
+        android:padding="10dp"
+        android:text="@string/employee"
+        android:textColor="#EDE6E6"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/customer"
+        android:textColor="#EDE6E6"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:contentDescription="Customer login button" />
+
+</LinearLayout>

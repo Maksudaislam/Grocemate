@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin1"
+    android:orientation="vertical"
+    android:background="@drawable/g4"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="@string/grocemate"
+        android:textColor="#BA323A"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:contentDescription="@string/app_name_grocemate1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome_to_grocemate"
+        android:textColor="#191A19"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:contentDescription="@string/welcome_message_for_grocemate" />
+
+
+</LinearLayout>

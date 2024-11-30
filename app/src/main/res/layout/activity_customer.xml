@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer_activity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="73dp"
+        android:background="#F1F8F7"
+        android:text="@string/details"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="@string/enter_your_name"
+        android:padding="15dp"
+
+
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#676B8A"
+        android:padding="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CC0C0C"
+        android:backgroundTint="#676B8A"
+        android:text="@string/start"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CC0C0C"
+        android:backgroundTint="#676B8A"
+        android:text="@string/show_products"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:padding="15dp"
+
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#676B8A"
+
+        android:text="@string/stop"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
